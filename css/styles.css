@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Satisfy');
+
+/*HEADER SECTION*/
+.logo{
+    width:90px;
+}
+
+header h1 {
+    color: #c9c983;
+    font-family:'satisfy', cursive;
+    margin-top: 20px;
+}
+
+.nav-pills>li.active>a{
+    color: #5c433f;
+    background-color: #eeddcd;
+}
+
+.nav-pills>li.active>a:hover,
+.product button:hover,
+footer a:hover{
+    background-color: #edf1f4;
+    color: #5c433f;
+}
+
+nav li{
+    font-size: 15px;
+
+}
+
+.jumbotron{
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.product{
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: 5px solid rgb(252, 252, 252);
+}
+
+
+
+
+
+
+
+/* .btn{
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: thin solid #000000;
+}
+
+footer{
+    background-color: #eeddcd;
+    border-radius: 5%;
+}
+
+.contact, .social{
+    list-style: none;
+    border-left: thin solid #000000;
+} */
